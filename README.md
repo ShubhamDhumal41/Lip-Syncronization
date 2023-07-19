@@ -47,4 +47,5 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 ## Acknowledgments
 We would like to acknowledge the MoviePy library for providing the necessary tools and functionalities for lip-syncing and video editing.
+Also I would like to acknowledge to OpeninApp for giving the access to the Video and Audio file.
 
