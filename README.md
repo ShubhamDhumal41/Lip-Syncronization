@@ -22,36 +22,25 @@ This Python script demonstrates a simple lip sync using the Moviepy library. It 
 
 ## Getting Started
 1. Ensure you have a video file (e.g., TechNews.mp4) and an audio file (e.g., output10.wav) that you want to lip-sync.
+   
 2. Update the video_path and audio_path variables in the lip_sync.py script to point to your respective video and audio files:
 
-## Storing Paths to video and audio files
-video_path = "path/to/video.mp4"
-audio_path = "path/to/audio.wav"
+3. Load video and audio files, ensuring compatibility with various formats (MP4, WAV, etc.).
 
+4. Determine the durations of the video and audio for synchronization.
 
-## Loading video and audio clips
-video_clip = VideoFileClip(video_path)
-audio_clip = AudioFileClip(audio_path)
+5. Adjust video duration to match audio duration, either by looping the video or trimming it accordingly.
 
+6. Synchronize the lip movements with the audio to create a visually realistic and cohesive output.
 
-#### Setting the audio of the video clip to the loaded audio clip
-video_clip = video_clip.set_audio(audio_clip)
+7. Save the final synchronized video with lip-synced audio for further analysis and presentation.
 
-#### Setting the duration of the video clip to match the duration of the audio clip
-video_clip = video_clip.set_duration(audio_clip.duration)
+8. The lip-synced video will be saved at the specified output_path in MP4 format with the H.264 video codec and AAC audio codec.
 
-#### Specifying the output path for the lip-synced video
-output_path = "path/to/output.mp4"
+9. The generated lip-synced video file will be stored at the specified output_path. It will also be autoplayed by the system.
 
-#### Stored the final lip-synced video to the specified output path
-video_clip.write_videofile(output_path, codec='libx264', audio_codec='aac')   
-
-The lip-synced video will be saved at the specified output_path in MP4 format with the H.264 video codec and AAC audio codec.
-
-#### Lip-Synced Video is Successfully stored and Autoplayed by system
-os.system(f"start {output_path}")
-
-The generated lip-synced video file will be stored at the specified output_path. It will also be autoplayed by the system.
+## Note
+The project showcases how lip sync can be achieved programmatically, enabling applications in video editing, media production, and entertainment industries. The model's effectiveness can be assessed through visual inspection and further analysis of lip-sync accuracy. The complete code and instructions are available in the GitHub repository, along with sample inputs and outputs for demonstration.
 
 ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
