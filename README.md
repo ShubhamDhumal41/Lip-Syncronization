@@ -48,6 +48,9 @@ video_clip.write_videofile(output_path, codec='libx264', audio_codec='aac')
 ## Lip-Synced Video is Successfully stored and Autoplayed by system
 os.system(f"start {output_path}")
 
+## Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
 ## Acknowledgments
 We would like to acknowledge the MoviePy library for providing the necessary tools and functionalities for lip-syncing and video editing.
 
