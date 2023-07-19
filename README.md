@@ -10,15 +10,15 @@ This Python script demonstrates a simple lip sync using the Moviepy library. It 
 - Moviepy library (`pip install moviepy`)
 - OS ('import OS')
 
-from moviepy.editor import VideoFileClip, AudioFileClip
-import os
+- from moviepy.editor import VideoFileClip, AudioFileClip
+- import os
 
 ## How to Use
 
 1. Place your video file (input_video.mp4) and the audio file (input_audio.wav) in the same directory as the `lip_sync.ipynb` script.
 2. You can find the Video and Audio File from below link
--Video - https://openinapp.co/5cwva
--Audio - https://openinapp.co/o9vuj
+- Video - https://openinapp.co/5cwva
+- Audio - https://openinapp.co/o9vuj
 
 ## Getting Started
 1. Ensure you have a video file (e.g., TechNews.mp4) and an audio file (e.g., output10.wav) that you want to lip-sync.
