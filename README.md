@@ -21,8 +21,8 @@ import os
 -Audio - https://openinapp.co/o9vuj
 
 ## Getting Started
-1.Ensure you have a video file (e.g., TechNews.mp4) and an audio file (e.g., output10.wav) that you want to lip-sync.
-2.Update the video_path and audio_path variables in the lip_sync.py script to point to your respective video and audio files:
+1. Ensure you have a video file (e.g., TechNews.mp4) and an audio file (e.g., output10.wav) that you want to lip-sync.
+2. Update the video_path and audio_path variables in the lip_sync.py script to point to your respective video and audio files:
 
 # Storing Paths to video and audio files
 video_path = "path/to/video.mp4"
